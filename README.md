@@ -28,7 +28,7 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
 **Step 3:**
 
-Connect a device with debugging on using ADB and run the project with:
+Connect a device with debugging using ADB and run the project with:
 
 ```
 flutter run lib/main.dart
@@ -39,6 +39,12 @@ flutter run lib/main.dart
 - [x] Todo
 
 ## Libraries & Tools Used
+
+State Management :
+
+- [bloc](https://pub.dev/packages/bloc)
+
+Library :
 
 - [another_flushbar](https://pub.dev/packages/another_flushbar)
 - [collection](https://pub.dev/packages/collection)
