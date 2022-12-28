@@ -1,6 +1,6 @@
+import 'package:amartha_todo/core/constants/color_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:amartha_todo/core/constants/color_constants.dart';
 
 class TextStyles {
   static var h6 = const TextStyle(

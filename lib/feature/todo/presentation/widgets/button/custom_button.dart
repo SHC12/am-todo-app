@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:amartha_todo/core/constants/color_constants.dart';
 import 'package:amartha_todo/core/utils/responsive.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 /// Custom Button
 /// - There are two types and two styles
@@ -232,6 +232,7 @@ class CustomPrimaryButton extends StatelessWidget {
           ),
           foregroundColor: ColorConstants.outlineColor,
         ),
+        onPressed: onPressed,
         child: child != null
             ? child!
             : icon == null && label != null
@@ -263,7 +264,6 @@ class CustomPrimaryButton extends StatelessWidget {
                         ],
                       )
                     : Center(child: icon!),
-        onPressed: onPressed,
       ),
     );
   }

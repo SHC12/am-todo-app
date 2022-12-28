@@ -1,7 +1,6 @@
 import 'package:amartha_todo/core/constants/color_constants.dart';
 import 'package:amartha_todo/core/extensions/string_extension.dart';
 import 'package:amartha_todo/feature/todo/domain/entities/todo/todo_entities.dart';
-import 'package:amartha_todo/feature/todo/presentation/widgets/button/custom_button.dart';
 import 'package:amartha_todo/feature/todo/presentation/widgets/text/custom_text.dart';
 import 'package:flutter/material.dart';
 

@@ -1,5 +1,4 @@
 import 'package:amartha_todo/core/abstracts/usecase.dart';
-import 'package:amartha_todo/feature/todo/domain/entities/todo/todo_entities.dart';
 import 'package:amartha_todo/feature/todo/domain/repositories/todo_repository.dart';
 
 class DeleteTodoUseCase implements UseCase<int, void> {
